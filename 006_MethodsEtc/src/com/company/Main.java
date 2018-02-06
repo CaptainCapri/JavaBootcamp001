@@ -1,6 +1,6 @@
 package com.company;
 
-public class Main {
+public abstract class Main {
 
     public static void main(String[] args) {
         int myVariable = 50;
@@ -12,11 +12,6 @@ public class Main {
             "another " +
             "still more.");
 
-
-        boolean gameOver = true;
-        int score = 800;
-        int lvlCompleted = 5;
-        int bonus = 100;
 //
 //        if(score<5000) {
 //            System.out.println("Your score was less than 5000 but more than 1000");
@@ -28,21 +23,56 @@ public class Main {
 //            System.out.println("Got here");
 //        }
 
-        if(gameOver) {
-            int finalScore = score + (lvlCompleted * bonus);
-            System.out.println("Your final score was " + finalScore);
+        boolean gameOver = true;
+        int score = -10000;
+        int lvlCompleted = 5;
+        int bonus = 100;
 
-        }
 
-        score = 10000;
-        lvlCompleted = 8;
-        bonus = 200;
-
-        if(gameOver) {
-            int finalScore = score + (lvlCompleted * bonus);
-            System.out.println("Your final score was " + finalScore);
-
-        }
+        calculateScore(true, 800,5,100);
+        calculateScore(false, score,lvlCompleted,bonus );
 
 	}
+
+	public static int calculateScore(boolean gameOver,int score, int lvlCompleted, int bonus){
+
+        if(gameOver) {
+            int finalScore = score + (lvlCompleted * bonus);
+            System.out.println("Your final score was " + finalScore);
+            if (finalScore >= 0) {
+                return finalScore;
+            }
+            else {
+                return 0;
+            }
+
+            }
+        else {
+            return 10;
+        }
+
+
+    }
+
+
+   String playerName = "Rolf";
+   // int playerScore = 0;
+	int position = calculateHighScorePosition(0);
+
+    displayHighScorePosition("Rolf",position);
+
+
+
+    public static void displayHighScorePosition (String playerName, int position){
+        System.out.("Player: " + playerName
+                + " reached Position: " + position);
+      //  }
+
+    public static int calculateHighScorePosition (int playerScore){
+        if (playerScore > 1000) {return 1;}
+        else if (playerScore < 1000 && playerScore > 500) {return 2;}
+        else if (playerScore > 500 && playerScore > 100) {return 3;}
+        else return 4;
+    }
+
 }
