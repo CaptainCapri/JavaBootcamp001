@@ -1,0 +1,12 @@
+UPDATE basestore; uid[unique=true];minimumOrderThreshold[default=0]
+;interspar.at
+
+INSERT_UPDATE BaseStoreCronJob; code[unique=true];active[default=false];
+;triggerStockUpdateCronjob_interspar.at;
+
+INSERT_UPDATE CronJob; code[unique=true];active[default=false]
+;forceStockUpdateNotSuppliedProducts
+ 
+
+UPDATE DeliveryTimeSlot[batchmode=true];itemtype(code)[unique=true];timeCapacity;maxTimeCapacity;spaceCapacity;maxSpaceCapacity;weightCapacity;maxWeightCapacity
+;DeliveryTimeSlot;0;100000;0;100000;0;100000;
