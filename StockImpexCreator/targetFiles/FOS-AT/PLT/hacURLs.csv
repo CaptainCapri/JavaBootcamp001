@@ -1,0 +1,6 @@
+protokoll,hostname,port,path
+https,atsl-ecosfe1plt01,9012,/shop/lebensmittel/hac
+https,atsl-ecosfe1plt02,9012,/shop/lebensmittel/hac
+https,atsl-ecosfe1plt03,9012,/shop/lebensmittel/hac
+https,atsl-ecosfe1plt04,9012,/shop/lebensmittel/hac
+https,atsl-ecosbe1plt01,9012,/shop/lebensmittel/hac

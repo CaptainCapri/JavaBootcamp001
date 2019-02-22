@@ -1,0 +1,8 @@
+UPDATE basestore; uid[unique=true];minimumOrderThreshold[default=25]
+;interspar.at
+
+INSERT_UPDATE BaseStoreCronJob; code[unique=true];active[default=true]
+;triggerStockUpdateCronjob_interspar.at;
+
+INSERT_UPDATE CronJob; code[unique=true];active[default=true]
+;forceStockUpdateNotSuppliedProducts;
