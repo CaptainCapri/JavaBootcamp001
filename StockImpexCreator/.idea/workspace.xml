@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2654970f-82e3-476d-a988-99f6af80a6ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/michaelhoffmann/userImpexCreatorFunction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StockImpexCreator/com/michaelhoffmann/userImpexCreator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StockImpexCreator/com/michaelhoffmann/userImpexCreator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/michaelhoffmann/userImpexCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/michaelhoffmann/userImpexCreator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/targetFiles/FOS-AT/userData.csv" beforeDir="false" afterPath="$PROJECT_DIR$/targetFiles/FOS-AT/userData.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/targetFiles/FOS-AT/userData_Impex.txt" beforeDir="false" afterPath="$PROJECT_DIR$/targetFiles/FOS-AT/userData_Impex.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/michaelhoffmann/userImpexCreator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="49" column="122" selection-start-line="49" selection-start-column="122" selection-end-line="49" selection-end-column="122" />
+            <state relative-caret-position="1088">
+              <caret line="97" selection-start-line="97" selection-end-line="97" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -45,7 +40,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/michaelhoffmann/userImpexCreatorFunction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
+            <state relative-caret-position="2227">
               <caret line="131" column="2" selection-start-line="131" selection-start-column="2" selection-end-line="131" selection-end-column="2" />
               <folding>
                 <element signature="e#0#7459#0" expanded="true" />
@@ -76,10 +71,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="3907" />
-    <option name="y" value="3" />
-    <option name="width" value="1691" />
-    <option name="height" value="1017" />
+    <option name="x" value="-1928" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -121,8 +116,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551270947711" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Document_ReadReplacer" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551345861861" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaLessons_003_ControlFlowStatements" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -182,18 +177,18 @@
       <option name="presentableId" value="Default" />
       <updated>1549444004727</updated>
       <workItem from="1549444010942" duration="29548000" />
-      <workItem from="1551168255603" duration="13326000" />
+      <workItem from="1551168255603" duration="16184000" />
+      <workItem from="1555058613433" duration="719000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42874000" />
+    <option name="totallyTimeSpent" value="46451000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-32" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -271,7 +266,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/michaelhoffmann/userImpexCreatorFunction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
+        <state relative-caret-position="2227">
           <caret line="131" column="2" selection-start-line="131" selection-start-column="2" selection-end-line="131" selection-end-column="2" />
           <folding>
             <element signature="e#0#7459#0" expanded="true" />
@@ -281,8 +276,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/michaelhoffmann/userImpexCreator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="49" column="122" selection-start-line="49" selection-start-column="122" selection-end-line="49" selection-end-column="122" />
+        <state relative-caret-position="1088">
+          <caret line="97" selection-start-line="97" selection-end-line="97" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
