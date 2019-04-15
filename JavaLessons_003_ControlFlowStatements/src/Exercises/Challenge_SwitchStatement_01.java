@@ -4,23 +4,23 @@ public class Challenge_SwitchStatement_01 {
 
     public static void main(String[] args) {
 
-        char alphabet = 'E';
+        String alphabet = "d";
 
-        switch (alphabet) {
+        switch (alphabet.toUpperCase()) {
 
-            case 'A' :
+            case "A" :
                 System.out.println("Letter is a");
                 break;
-            case 'B' :
+            case "B" :
                 System.out.println("Letter is b");
                 break;
-            case 'C' :
+            case "C" :
                 System.out.println("Letter is c");
                 break;
-            case 'D' :
+            case "D" :
                 System.out.println("Letter is d");
                 break;
-            case 'E' :
+            case "E" :
                 System.out.println("Letter is e");
                 break;
             default:
