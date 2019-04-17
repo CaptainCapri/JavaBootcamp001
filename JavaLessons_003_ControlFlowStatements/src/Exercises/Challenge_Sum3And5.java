@@ -12,8 +12,6 @@ public class Challenge_Sum3And5 {
             int check3 = i % 3;
             int check5 = i % 5;
 
-
-
             if (check3 == 0 && check5 == 0){
                 System.out.println(i);
                 count++;
