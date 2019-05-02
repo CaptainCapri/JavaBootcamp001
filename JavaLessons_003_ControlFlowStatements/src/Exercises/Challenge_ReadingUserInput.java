@@ -13,10 +13,15 @@ public class Challenge_ReadingUserInput {
         while (count<=10) {
 
             System.out.println("Enter Number #" + count);
-            sum += scanner.nextInt();
+
+            boolean isAnInt = scanner.hasNextInt();
+
+            if(isAnInt) {
+                sum += scanner.nextInt();
+            }else System.out.println("Invalid Number");
+            count++;
             scanner.nextLine();
 
-            count++;
         }
         System.out.println("The sum of your numbers was: " + sum);
         scanner.close();
