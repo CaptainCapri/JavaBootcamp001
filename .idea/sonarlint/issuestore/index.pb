@@ -1,3 +1,19 @@
 
 £
 sJavaLessons_004_OOP01_ClassesConstructorsAndInheritance/JavaLessons_004_OOP01_ClassesConstructorsAndInheritance.iml,a/d/ad86fbd14f50bbf21d13d480d38c512881e6f39c
+ã
+[JavaLessons_004_OOP01_ClassesConstructorsAndInheritance/.idea/sonarlint/issuestore/index.pb,6/e/6e803511a27f3401b04b42ea7ee0a14b8b74ed1a
+ã
+[JavaLessons_005_OOP02_ClassesConstructorsAndInheritance/.idea/sonarlint/issuestore/index.pb,a/7/a7d7ac6ecee1ef83f64b95d89652c03b894cfa08
+ê
+`JavaLessons_005_OOP02_ClassesConstructorsAndInheritance/src/com/HoffmannMichael/BankAccount.java,a/9/a969c04f01826a39cb7e06fa683c14a8cd4e4978
+à
+XJavaLessons_005_OOP02_ClassesConstructorsAndInheritance/src/com/HoffmannMichael/Car.java,f/f/ffc0fc14db15d150f1f66e20a4e8c16eb9bfaf3e
+â
+YJavaLessons_005_OOP02_ClassesConstructorsAndInheritance/src/com/HoffmannMichael/Main.java,a/6/a61642455356669ebefd07f3790e11b8046a0de4
+ã
+[JavaLessons_005_OOP02_ClassesConstructorsAndInheritance/src/com/HoffmannMichael/Person.java,c/c/cca63c8827be8859b161b47503a370da7c6f7971
+ï
+eJavaLessons_005_OOP02_ClassesConstructorsAndInheritance/src/com/HoffmannMichael/SimpleCalculator.java,0/f/0f1f54f5a968b4a5c99ab94722a3da3d2737986d
+£
+sJavaLessons_005_OOP02_ClassesConstructorsAndInheritance/JavaLessons_005_OOP02_ClassesConstructorsAndInheritance.iml,3/3/3327fe8b2594fcfb9bcdf723cb44f576d01fd32d

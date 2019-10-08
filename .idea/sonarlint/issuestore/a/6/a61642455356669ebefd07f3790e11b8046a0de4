@@ -1,0 +1,15 @@
+
+asquid:CommentedOutCodeLine
+"<This block of commented-out lines of code should be removed.(€éÈ\
+asquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(‚¬ã
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(±ÂÏÿùÿÿÿÿ
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ç¸Á†ýÿÿÿÿ
+T
+squid:S1068"9Replace this use of System.out or System.err by a logger.(ëÅ¨ýÿÿÿÿ
+O
+squid:S1069"9Replace this use of System.out or System.err by a logger.(Ñ³õä
+O
+squid:S106:"9Replace this use of System.out or System.err by a logger.(ùÌÍ¢
+isquid:S00117,"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©çªÊ
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(è¸ø´øÿÿÿÿ
+Xsquid:UselessImportCheck"/Remove this unused import 'java.sql.SQLOutput'.(ê¤òÃùÿÿÿÿ
