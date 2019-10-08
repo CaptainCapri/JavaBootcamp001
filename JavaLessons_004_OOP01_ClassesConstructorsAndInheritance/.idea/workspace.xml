@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/../../../Hybris/hervis/hybris/bin/custom/paymentExternalAuthorization/web/webroot/WEB-INF/web.xml" description="&lt;filter-name&gt;XSSFilter&lt;/filter-name&gt;" line="72" />
+    <bookmark url="file://$PROJECT_DIR$/../../../Hybris/hervis/hybris/bin/custom/paymentExternalAuthorization/web/webroot/WEB-INF/web.xml" description="&lt;filter-name&gt;XSSFilter&lt;/filter-name&gt;" line="67" />
+    <bookmark url="file://$PROJECT_DIR$/../../../Hybris/hervis/hybris/bin/platform/tomcat/conf/server.xml" description="paymentExternalAuthorization" line="228" />
+    <bookmark url="file://$PROJECT_DIR$/../../../Hybris/hervis/hybris/bin/ext-content/cmscockpit/web/webroot/WEB-INF/web.xml" description="&lt;filter-class&gt;de.hybris.platform.servicelayer.web...." line="144" />
+    <bookmark url="file://$PROJECT_DIR$/../../../Hybris/hervis/hybris/bin/custom/hervis/hervisstorefront/web/webroot/WEB-INF/web.xml" description="it.reply.portaltech.hervis.core.web.filters.SparXs..." line="220" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="470bbe5a-09fe-4aa8-9387-fdb5877520e4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/michaelhoffmann/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/michaelhoffmann/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/michaelhoffmann/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/michaelhoffmann/SimpleCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaLessons_003_ControlFlowStatements/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaLessons_003_ControlFlowStatements/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaLessons_003_ControlFlowStatements/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaLessons_003_ControlFlowStatements/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml___jb_tmp___" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/michaelhoffmann/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/michaelhoffmann/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,53 +24,14 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.578841">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/com/michaelhoffmann/Main.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="407">
-                  <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/michaelhoffmann/SimpleCalculator.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="480">
-                  <caret line="36" selection-start-line="36" selection-end-line="37" selection-end-column="47" />
-                  <folding>
-                    <element signature="e#163#164#0" expanded="true" />
-                    <element signature="e#197#198#0" expanded="true" />
-                    <element signature="e#235#236#0" expanded="true" />
-                    <element signature="e#270#271#0" expanded="true" />
-                    <element signature="e#470#471#0" expanded="true" />
-                    <element signature="e#519#520#0" expanded="true" />
-                    <element signature="e#562#563#0" expanded="true" />
-                    <element signature="e#611#612#0" expanded="true" />
-                    <element signature="e#657#658#0" expanded="true" />
-                    <element signature="e#706#707#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/michaelhoffmann/Person.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="300">
-                  <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/michaelhoffmann/Car.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="225">
-                  <caret line="15" column="73" selection-start-line="15" selection-start-column="73" selection-end-line="15" selection-end-column="73" />
+                <state relative-caret-position="465">
+                  <caret line="31" column="54" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="54" />
                 </state>
               </provider>
             </entry>
@@ -76,23 +39,19 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/com/michaelhoffmann/BankAccount.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="495">
-                  <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+                <state relative-caret-position="30">
+                  <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/michaelhoffmann/Person.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="300">
-                  <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-                </state>
-              </provider>
+            <entry file="file://$PROJECT_DIR$/JavaLessons_004_OOP01_ClassesConstructorsAndInheritance.iml">
+              <provider selected="true" editor-type-id="text-editor" />
             </entry>
           </file>
         </leaf>
@@ -122,10 +81,12 @@
         <option value="$PROJECT_DIR$/src/com/michaelhoffmann/Person.java" />
         <option value="$PROJECT_DIR$/src/com/michaelhoffmann/Main.java" />
         <option value="$PROJECT_DIR$/src/com/michaelhoffmann/BankAccount.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.impex" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.impex" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-1920" />
     <option name="y" value="23" />
     <option name="width" value="1920" />
@@ -136,8 +97,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -166,6 +127,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Impex" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -210,17 +172,25 @@
       <workItem from="1559024948499" duration="157000" />
       <workItem from="1559040317768" duration="673000" />
       <workItem from="1559112246571" duration="8064000" />
-      <workItem from="1560233893284" duration="5491000" />
+      <workItem from="1560233893284" duration="7404000" />
+      <workItem from="1561103139695" duration="1899000" />
+      <workItem from="1561357810607" duration="614000" />
+      <workItem from="1561634705196" duration="1967000" />
+      <workItem from="1562238518899" duration="596000" />
+      <workItem from="1562247515895" duration="749000" />
+      <workItem from="1562570794073" duration="3975000" />
+      <workItem from="1563448951543" duration="570000" />
+      <workItem from="1569573235438" duration="581000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14385000" />
+    <option name="totallyTimeSpent" value="27249000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1920" y="23" width="1920" height="1011" extended-state="0" />
+    <frame x="-1920" y="23" width="1920" height="1011" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18051118" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12193823" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -228,9 +198,10 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Designer" order="7" />
+      <window_info anchor="bottom" id="SonarLint" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32861805" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27834103" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -238,7 +209,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3297062" />
+      <window_info anchor="bottom" id="Version Control" order="10" visible="true" weight="0.14254625" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Hybris Console" order="12" />
       <window_info anchor="bottom" id="JRebel Console" order="13" side_tool="true" />
@@ -249,7 +220,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Maven" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="JRebel Setup Guide" order="5" visible="true" weight="0.11608094" />
+      <window_info anchor="right" id="JRebel Setup Guide" order="5" visible="true" weight="0.08785942" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
@@ -276,7 +247,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/michaelhoffmann/SimpleCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
+        <state relative-caret-position="403">
           <caret line="36" selection-start-line="36" selection-end-line="37" selection-end-column="47" />
           <folding>
             <element signature="e#163#164#0" expanded="true" />
@@ -293,17 +264,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.impex" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.impex" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_2.impex" />
     <entry file="file://$PROJECT_DIR$/src/com/michaelhoffmann/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
+        <state relative-caret-position="465">
+          <caret line="31" column="54" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="54" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/JavaLessons_004_OOP01_ClassesConstructorsAndInheritance.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/michaelhoffmann/BankAccount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
