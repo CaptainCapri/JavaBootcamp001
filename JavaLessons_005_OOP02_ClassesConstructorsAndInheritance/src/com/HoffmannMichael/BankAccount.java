@@ -3,17 +3,36 @@ package com.HoffmannMichael;
 public class BankAccount {
 
   private String number;
-  private int balance;
+  private double balance;
   private String customerName;
   private String email;
   private String phone;
 
 
+  public BankAccount() {
+    System.out.println("Empty constructor called");
+  }
+
+  public BankAccount(String number, double balance, String customerName, String email, String phone) {
+    this.number = number;
+    this.balance = balance;
+    this.customerName = customerName;
+    this.email = email;
+    this.phone = phone;
+  }
+
+  public BankAccount(String customerName, String email, String phone) {
+    this("999999",100.55, customerName, email,)
+    this.customerName = customerName;
+    this.email = email;
+    this.phone = phone;
+  }
+
   public String getNumber() {
     return number;
   }
 
-  public int getBalance() {
+  public double getBalance() {
     return balance;
   }
 
@@ -33,7 +52,7 @@ public class BankAccount {
     this.number = number;
   }
 
-  public void setBalance(int balance) {
+  public void setBalance(double balance) {
     this.balance = balance;
   }
 
@@ -49,17 +68,17 @@ public class BankAccount {
     this.phone = phone;
   }
 
-  public void deposit(int depositAmount){
-    balance =+ depositAmount;
+  public void deposit(double depositAmount){
+    balance = balance + depositAmount;
     System.out.println(depositAmount + " NuYen added to your account. New balance: " + balance);
   }
 
-  public void withdraw(int withdrawAmount){
-    if (balance > withdrawAmount || withdrawAmount < 0) {
+  public void withdraw(double withdrawAmount){
+    if ((this.balance - withdrawAmount) < 0) {
       System.out.println("Not enough NuYen on your balance, call Mr. Johnson for new runs");
     }
     else {
-      balance =- withdrawAmount;
+      balance = balance - withdrawAmount;
       System.out.println(withdrawAmount + " NuYen withdrawn from your account. New balance: " + balance);
     }
   }

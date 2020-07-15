@@ -41,21 +41,25 @@ public class Main {
 
 
 //     BANK ACCOUNT - CLASS
-        BankAccount HotDocsBankaccount = new BankAccount();
-        HotDocsBankaccount.setBalance(0);
-        HotDocsBankaccount.setCustomerName("Hot Doc");
-        HotDocsBankaccount.setEmail("theHottest@doc.sr");
-        HotDocsBankaccount.setPhone("06660815");
-        HotDocsBankaccount.setNumber("35985792357");
+        BankAccount HotDocsBankaccount = new BankAccount("35985792357", 0.00, "Hot Doc", "thehottest@doc.sr", "06660815");
+//        HotDocsBankaccount.setBalance(0);
+//        HotDocsBankaccount.setCustomerName("Hot Doc");
+//        HotDocsBankaccount.setEmail("theHottest@doc.sr");
+//        HotDocsBankaccount.setPhone("06660815");
+//        HotDocsBankaccount.setNumber("35985792357");
 
         HotDocsBankaccount.deposit(777);
+        System.out.println("Balance: " + HotDocsBankaccount.getBalance());
         HotDocsBankaccount.withdraw(333);
+        System.out.println("Balance: " + HotDocsBankaccount.getBalance());
         HotDocsBankaccount.withdraw(777);
+        System.out.println("Balance: " + HotDocsBankaccount.getBalance());
         HotDocsBankaccount.withdraw(-12);
 
         System.out.println("Name: " + HotDocsBankaccount.getCustomerName());
         System.out.println("Number: " + HotDocsBankaccount.getNumber());
         System.out.println("Phone: " + HotDocsBankaccount.getPhone());
+        System.out.println("Phone: " + HotDocsBankaccount.getEmail());
 
     }
 
