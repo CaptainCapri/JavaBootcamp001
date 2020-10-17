@@ -61,6 +61,22 @@ public class Main {
         System.out.println("Phone: " + HotDocsBankaccount.getPhone());
         System.out.println("Phone: " + HotDocsBankaccount.getEmail());
 
+
+
+        BankAccount michisAccount = new BankAccount("Michi", "michi@email.com", "0815");
+        System.out.println(michisAccount.getNumber() + " name: " + michisAccount.getCustomerName());
+
+        System.out.println("\n");
+
+        VipCustomer hotDocsVipAccount = new VipCustomer("Hot Doc", 13, "thehottest@doc.sr");
+        System.out.println(hotDocsVipAccount.getName() + hotDocsVipAccount.getCreditLimit() + hotDocsVipAccount.geteMail());
+
+        VipCustomer xargothVipAccount = new VipCustomer("Xargoth", 17000);
+        System.out.println(xargothVipAccount.getName() + xargothVipAccount.getCreditLimit() + xargothVipAccount.geteMail());
+
+        VipCustomer diegosVipAccount = new VipCustomer();
+        System.out.println(diegosVipAccount.getName() + diegosVipAccount.getCreditLimit() + diegosVipAccount.geteMail());
+
     }
 
 }

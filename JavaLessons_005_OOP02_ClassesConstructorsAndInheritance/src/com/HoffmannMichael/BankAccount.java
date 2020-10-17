@@ -22,10 +22,7 @@ public class BankAccount {
   }
 
   public BankAccount(String customerName, String email, String phone) {
-    this("999999",100.55, customerName, email,)
-    this.customerName = customerName;
-    this.email = email;
-    this.phone = phone;
+    this("99999", 100.55, customerName, email, phone);
   }
 
   public String getNumber() {
@@ -82,7 +79,5 @@ public class BankAccount {
       System.out.println(withdrawAmount + " NuYen withdrawn from your account. New balance: " + balance);
     }
   }
-
-
 
 }
