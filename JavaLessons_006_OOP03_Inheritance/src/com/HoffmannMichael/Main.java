@@ -16,20 +16,22 @@ public class Main {
 //
 //        dog.run();
 
-        Jeep jeep = new Jeep ("green", 5.0, 100, "canyonero", 4, 7, 0, 1, true);
-        jeep.handSteering();
-        jeep.changingGears(3);
-        System.out.println(jeep.getName() + " drives in gear " + jeep.getActualGear());
+//        Jeep jeep = new Jeep ("green", 5.0, 100, "canyonero", 4, 7, 0, 1, true);
+//        jeep.handSteering();
+//        jeep.changingGears(3);
+//        System.out.println(jeep.getName() + " drives in gear " + jeep.getActualGear());
+//
+//        jeep.allRad();
+//
+//        jeep.setSpeed(80);
+//        jeep.changingGears(2);
+//        jeep.allRad();
+//        jeep.move();
+//        System.out.println(jeep.getName() + " drives in gear " + jeep.getActualGear());
 
-        jeep.allRad();
+        Circle circle = new Circle(-5);
 
-        jeep.setSpeed(80);
-        jeep.changingGears(2);
-        jeep.allRad();
-        jeep.move();
-        System.out.println(jeep.getName() + " drives in gear " + jeep.getActualGear());
-
-
+        System.out.println(circle.getRadius());
 
     }
 }
