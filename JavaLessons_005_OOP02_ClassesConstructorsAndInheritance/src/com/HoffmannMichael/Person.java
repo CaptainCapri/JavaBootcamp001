@@ -1,7 +1,6 @@
 package com.HoffmannMichael;
 
 import java.lang.invoke.LambdaConversionException;
-import jdk.nashorn.internal.objects.NativeUint8Array;
 
 public class Person {
 
