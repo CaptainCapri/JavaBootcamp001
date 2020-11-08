@@ -31,7 +31,7 @@ public class Printer {
 
     public void printPages(int numberPages){
 
-        for (int i = 0; i < numberPages; i--) {
+        for (int i = 0; i < numberPages; i++) {
             this.reduceToner();
         }
 
