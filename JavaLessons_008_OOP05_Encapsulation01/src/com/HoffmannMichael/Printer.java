@@ -7,37 +7,44 @@ public class Printer {
     private boolean isduplex;
 
     public Printer(int tonerLevel, int printedPages, boolean isduplex) {
-        if (tonerLevel < 0) System.out.println("Toner empty");
+        if (tonerLevel < 0) {
+            System.out.println("Toner empty");
+            this.tonerLevel = 0;
+        }
         this.tonerLevel = tonerLevel;
         this.printedPages = printedPages;
         this.isduplex = isduplex;
     }
 
     public void fillToner(){
-        tonerLevel = 100;
-        System.out.println("Toner Level filled to " + tonerLevel);
+        this.tonerLevel = 100;
+        System.out.println("Toner Level filled to " + this.tonerLevel);
     }
 
     private int reduceToner(){
         if (this.tonerLevel <= 0){
             System.out.println("Toner empty, please refill");
-            return 0;
+            return -1;
         }
         else{
-            this.tonerLevel = this.tonerLevel--;
+            this.tonerLevel--;
+            if (this.tonerLevel <= 0){
+                System.out.println("Toner empty, please refill");
+                return -1;
+            }
+            System.out.println("TonerLevel is: " + this.tonerLevel);
             return this.tonerLevel;
         }
     }
 
-    public void printPages(int numberPages){
+    public void printPages(double numberPages){
 
         for (int i = 0; i < numberPages; i++) {
             this.reduceToner();
         }
-
-        printedPages = (int) (printedPages - Math.ceil(numberPages/2));
-
-        System.out.println("Pages printed: " + printedPages);
+        if (this.isduplex)this.printedPages = (int) (this.printedPages + Math.ceil(numberPages/2.0));
+        else this.printedPages += numberPages;
+        System.out.println("Pages printed: " + this.printedPages);
         System.out.println("Remaining Toner: " + tonerLevel + "%");
 
     }

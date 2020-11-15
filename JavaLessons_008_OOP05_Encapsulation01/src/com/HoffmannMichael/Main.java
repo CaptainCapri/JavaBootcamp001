@@ -26,10 +26,18 @@ public class Main {
         enhancedPlayer.loseHealth(damage);
         enhancedPlayer.loseHealth(damage);
 
-        Printer myPrinter = new Printer(0, 0, true);
-        myPrinter.fillToner();
-        myPrinter.printPages(7);
+//        System.out.println("NUMBRRR " + (int) Math.ceil(int i 7/2));
 
+        Printer mynewPrinter = new Printer(0, 0, true);
+        mynewPrinter.fillToner();
+        mynewPrinter.printPages(7);
+        mynewPrinter.printPages(108);
+        mynewPrinter.printPages(7);
+
+
+//        Printer myoldPrinter = new Printer(0, 0, false);
+//        myoldPrinter.fillToner();
+//        myoldPrinter.printPages(7);
 
 
     }
